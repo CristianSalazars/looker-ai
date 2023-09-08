@@ -1,10 +1,8 @@
 project_name: "looker-genai"
-
 application: looker-genai {
   label: "Looker GenAI Extension"
-  # for development: url: "https://localhost:8080/bundle.js"
-  # production
-  file: "bundle.js"
+  url: "https://localhost:8080/bundle.js"
+  # Comment production file: "bundle.js"
   entitlements: {
     use_embeds: yes
     use_form_submit: yes
